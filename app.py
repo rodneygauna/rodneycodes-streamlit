@@ -19,7 +19,7 @@ profile_pic = current_dir / "assets" / "profile-pic.jpg"
 # General Settings
 # ------------------------------------------------------------------------------
 PAGE_TITLE = "rodney.codes | Rodney Gauna"
-PAGE_ICON = ":page_with_curl:"
+PAGE_ICON = "random"
 NAME = "Rodney Gauna"
 DESCRIPTION = """
 Product Manager Director, coaching Product Managers to becoming great by
@@ -77,8 +77,8 @@ with col1:
     st.image(profile_pic, width=230)
 
 with col2:
-    st.title(NAME)
-    st.write(DESCRIPTION)
+    st.title(NAME, anchor=None)
+    st.caption(DESCRIPTION)
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
@@ -131,12 +131,14 @@ st.write(
 """
 )
 
+
 # ------------------------------------------------------------------------------
 # Work History
 # ------------------------------------------------------------------------------
 st.write("#")
 st.subheader("Work History")
 st.write("---")
+
 
 # JOB 1
 st.write("**Product Director | ChiroTouch**")

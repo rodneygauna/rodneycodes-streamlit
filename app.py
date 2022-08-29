@@ -34,7 +34,7 @@ SOCIAL_MEDIA = {
     ":bird: Twitter": "https://twitter.com/rodneygauna"
 }
 SKILLS = [
-    ":office: Product Management: Research customer needs, product vision and roadmap, strategy for development, creating sales and marketing objectives, leading and coaching a team of Product Managers",
+    ":office: Product Management: Research customer needs, product vision and roadmap, strategy for development, creating sales and marketing objectives, leading and coaching a team of Product Managers, Agile and Scrum methodologies",
     ":ambulance: Medical: Electronic Health Records (EHRs), Healthcare Information Technology",
     "👩‍💻 Programming: HTML, CSS, JavaScript, Python, SQL, FHIR, HL7, ANSI X12",
     ":file_cabinet: Databases: Postgres, MongoDB, MySQL"
@@ -169,13 +169,80 @@ st.write(
 
 # JOB 2
 st.write("#")
-st.write("**Product Director | ChiroTouch**")
-st.write("March 2018 - Present")
+st.write("**Chief Technical Product Owner | NextGen Healthcare**")
+st.write("April 2016 - February 2018")
 st.write(
     """
-- :small_blue_diamond: Manage a team of Senior Product Managers, Product Managers, and Product Owners.
-- :small_blue_diamond: Manages, organizes, mentors, and leads product managers to achieve strategic goals for product portfolio(s).
-- :small_blue_diamond: Roadmap definition - ensure it aligns with the overall company vision, revenue objectives, customer feedback, and market analysis. Evangelize the vision constantly to ensure all stakeholders are aligned, have context, and understand where we are going.
+- :small_blue_diamond: Lead multiple Scrum teams in developing business cases for EHR improvements.
+- :small_blue_diamond: Gather requirements (MVP and MMF), translate concepts into wireframes and mockups, and build prototypes for usability testing.
+- :small_blue_diamond: Guide and manage the development and delivery of online software products.
+- :small_blue_diamond: Develop new opportunities and managed migrations of existing solutions to new hosting environment.
+- :small_blue_diamond: Direct development teams to solve complex usability problems by devising elegant solutions.
+"""
+)
+
+
+# JOB 3
+st.write("#")
+st.write("**EHR Application Analyst/Supervisor | Monarch Healthcare (OptumCare - UnitedHealth Group)**")
+st.write("April 2016 - February 2018")
+st.write(
+    """
+- :small_blue_diamond: Provided leadership to Implementation and Business Analysts for improvements to the NextGen EHR software by evaluating recommendations.
+- :small_blue_diamond: Created action plans, development of EHR templates, and oversaw weekly deployments.
+- :small_blue_diamond: Managed multiple projects to ensure deadlines were met and tasks were completed in compliance with regulatory rules and internal guidelines.
+- :small_blue_diamond: Prepared and presented training documentation to multiple departments for new product launches and process improvement initiatives.
+"""
+)
+
+
+# JOB 4
+st.write("#")
+st.write("**Integration Manager/HL7 Engineer | HealthFusion, Inc.**")
+st.write("June 2014 - June 2015")
+st.write(
+    """
+- :small_blue_diamond: Accomplished department objectives by managing staff, planning and evaluating department activities, and implementing the integration of applications and solutions.
+- :small_blue_diamond: Provided leadership for staff, clients, and vendors.
+- :small_blue_diamond: Worked cooperatively with principals and supervisors with technology integration.
+- :small_blue_diamond: Designed, planned, and facilitated training for staff to meet technology skills.
+"""
+)
+
+
+# JOB 5
+st.write("#")
+st.write("**Senior Consultant | Object Health (Elevation Point), LLC**")
+st.write("July 2011 - March 2014")
+st.write(
+    """
+- :small_blue_diamond: Focused on privacy and security, electronic health record implementations, project management, and community health improvement projects.
+- :small_blue_diamond: Executed the integration and coordination of activities and programs with key partners.
+- :small_blue_diamond: Implemented computer software for practice management and electronic record system.
+"""
+)
+
+
+# JOB 6
+st.write("#")
+st.write("**Health Information Analyst | Clinicas de Salud del Pueblo, Inc.**")
+st.write("June 2010 - June 2011")
+st.write(
+    """
+- :small_blue_diamond: Drove project management, implementation and maintenance of NextGen EHR in a 1-year roll-out.
+- :small_blue_diamond: Delivered health management reporting and analysis, quality improvement, and community health improvements.
+"""
+)
+
+
+# JOB 6
+st.write("#")
+st.write("**Firefigther/EMT | Imperial County and City of Brawley**")
+st.write("June 2004- October 2010")
+st.write(
+    """
+- :small_blue_diamond: Served as volunteer and paid Firefighter I/Emergency Medical Technician.
+- :small_blue_diamond: Ensured protection of life, property, and environment through fire suppression, prevention, and ambulatory emergency medical care.
 """
 )
 

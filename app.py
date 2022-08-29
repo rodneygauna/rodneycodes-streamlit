@@ -29,9 +29,9 @@ market.
 EMAIL = "rodneygauna@gmail.com"
 PHONE = "(760) 587-0052"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://linkedin.com/in/rodneygauna",
-    "GitHub": "https://github.com/rodneygauna",
-    "Twitter": "https://twitter.com/rodneygauna"
+    ":office_worker: LinkedIn": "https://linkedin.com/in/rodneygauna",
+    ":octocat: GitHub": "https://github.com/rodneygauna",
+    ":bird: Twitter": "https://twitter.com/rodneygauna"
 }
 ACCOMPLISHMENETS = {
     ":page_with_curl: Certification of User Experience Design":
@@ -80,16 +80,18 @@ with col2:
     st.title(NAME, anchor=None)
     st.caption(DESCRIPTION)
     st.download_button(
-        label=" 📄 Download Resume",
+        label=" :page_facing_up: Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write(":e-mail:", EMAIL)
-    st.write(":phone:", PHONE)
+    st.write(":email:", EMAIL)
+    st.write(":iphone:", PHONE)
 
 
-# --- Social Links ---
+# ------------------------------------------------------------------------------
+# Social Links
+# ------------------------------------------------------------------------------
 st.write("#")
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
@@ -125,9 +127,9 @@ st.subheader("Professional Skills")
 st.write("---")
 st.write(
     """
-- :random: Electronic Health Records (EHRs), Healthcare Information Technology
-- 👩‍💻 Programming: HTML, CSS, JavaScript, Python, SQL, FHIR, HL7, ANSI X12
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- :stethoscope: Electronic Health Records (EHRs), Healthcare Information Technology
+- :man_technologist: Programming: HTML, CSS, JavaScript, Python, SQL, FHIR, HL7, ANSI X12
+- :file_cabinet: Databases: Postgres, MongoDB, MySQL
 """
 )
 

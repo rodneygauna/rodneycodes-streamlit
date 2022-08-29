@@ -40,8 +40,8 @@ SKILLS = [
     ":file_cabinet: Databases: Postgres, MongoDB, MySQL"
 ]
 USECASES = {
-    ":crystal_ball: Business Case - An Example":
-        "#",
+    ":crystal_ball: Business Case - Go-To-Market Clearinghouse Launch":
+        "https://drive.google.com/file/d/10TRiaUBBIE_y1I7paOZ2ZMnYcEbZIQNg/view?usp=sharing",
     ":floppy_disk: UX Use Case - Blizzard Gear Store":
         "https://docs.google.com/presentation/d/15o32SFDuWYTgCX5ahUk_ibQCqxTLapxIOE4D4LRWGmk/edit?usp=sharing",
     ":floppy_disk: UX Use Case - Coco's Luxury Cat Toys":
@@ -124,7 +124,7 @@ st.subheader("About")
 st.write("---")
 st.write(
     """
-I am a high-level and talented Technical Product Owner adept in User
+I am a high-level and talented Product Manager adept in User
 Experience Design. I lead the Product Design function in an effort to develop
 customer use cases, personas and scenarios, and interface design. Provide
 leadership in requirements gathering, interactive design, user testing, and
@@ -160,9 +160,12 @@ st.write("**Product Director | ChiroTouch**")
 st.write("March 2018 - Present")
 st.write(
     """
-- :small_blue_diamond: Manage a team of Senior Product Managers, Product Managers, and Product Owners.
-- :small_blue_diamond: Manages, organizes, mentors, and leads product managers to achieve strategic goals for product portfolio(s).
-- :small_blue_diamond: Roadmap definition - ensure it aligns with the overall company vision, revenue objectives, customer feedback, and market analysis. Evangelize the vision constantly to ensure all stakeholders are aligned, have context, and understand where we are going.
+- :small_blue_diamond: Manage - Manage a team of Group Product Managers, Senior Product Managers, Product Managers, and Associate Product Managers to achieve strategic goals for product portfolio(s).
+- :small_blue_diamond: Market - Track overall market and competitive dynamics. Identify product requirements to maintain leadership position in market and new market opportunities.  Understand and develop content for all departments and executives to communicate competive strengths and weaknesses.
+- :small_blue_diamond: Product Vision - Defining product vision, strategy & goals to deliver on business goals. Defining high-level themes, major feature delivery & enhancements focus. Conduct cross-functional & leadership roadmap reviews & approvals.
+- :small_blue_diamond: Large Initiatives - Drive large scale initiatives from initial opportunity identification and research, to feasibility analysis and feature definition, all the way to business consumption and success metric tracking.
+- :small_blue_diamond: Build, Partner, Buy - Where there are product or service gaps, determine buy, build or partner decisions including the preparation of business cases with ROI/financial projections.
+- :small_blue_diamond: Roadmap Definition - ensure it aligns with the overall company vision, revenue objectives, customer feedback, and market analysis. Evangelize the vision constantly to ensure all stakeholders are aligned, have context, and understand where we are going.
 """
 )
 

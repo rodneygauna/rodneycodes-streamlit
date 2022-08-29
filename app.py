@@ -33,10 +33,18 @@ SOCIAL_MEDIA = {
     "👩‍💻 GitHub": "https://github.com/rodneygauna",
     ":bird: Twitter": "https://twitter.com/rodneygauna"
 }
+SKILLS = [
+    ":office: Product Management: Research customer needs, product vision and roadmap, strategy for development, creating sales and marketing objectives, leading and coaching a team of Product Managers",
+    ":ambulance: Medical: Electronic Health Records (EHRs), Healthcare Information Technology",
+    "👩‍💻 Programming: HTML, CSS, JavaScript, Python, SQL, FHIR, HL7, ANSI X12",
+    ":file_cabinet: Databases: Postgres, MongoDB, MySQL"
+]
 USECASES = {
-    "UX Use Case - Blizzard Gear Store":
+    ":crystal_ball: Business Case - An Example":
+        "#",
+    ":floppy_disk: UX Use Case - Blizzard Gear Store":
         "https://docs.google.com/presentation/d/15o32SFDuWYTgCX5ahUk_ibQCqxTLapxIOE4D4LRWGmk/edit?usp=sharing",
-    "UX Use Case - Coco's Luxury Cat Toys":
+    ":floppy_disk: UX Use Case - Coco's Luxury Cat Toys":
         "https://docs.google.com/document/d/1WKCbLjCHyGs83yE2qIdn-sraVplyhbK7Xrqfj2NOl6s/edit?usp=sharing"
 }
 ACCOMPLISHMENETS = {
@@ -60,7 +68,7 @@ PROJECTS = {
         "https://github.com/rodneygauna/WebDevAble",
     ":small_orange_diamond: Learning SQL":
         "https://github.com/rodneygauna/palomar-CSIT150-IntroToSQL",
-    ":small_orange_diamond:Learing Python":
+    ":small_orange_diamond: Learing Python":
         "https://github.com/rodneygauna/palomar-CSIT175-Python",
     ":small_orange_diamond: Skeevy - Open Source Pet Medication Tracking Web-App":
         "https://github.com/rodneygauna/skeevy"
@@ -135,14 +143,8 @@ boundaries of market segments.
 st.write("#")
 st.subheader("Professional Skills")
 st.write("---")
-st.write(
-    """
-- :office: Product Management: Research customer needs, product vision and roadmap, strategy for development, creating sales and marketing objectives, leading and coaching a team of Product Managers
-- :ambulance: Medical: Electronic Health Records (EHRs), Healthcare Information Technology
-- 👩‍💻 Programming: HTML, CSS, JavaScript, Python, SQL, FHIR, HL7, ANSI X12
-- :file_cabinet: Databases: Postgres, MongoDB, MySQL
-"""
-)
+for skill in SKILLS:
+    st.write(f"{skill}")
 
 
 # ------------------------------------------------------------------------------

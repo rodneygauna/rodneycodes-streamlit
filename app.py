@@ -33,13 +33,23 @@ SOCIAL_MEDIA = {
     "👩‍💻 GitHub": "https://github.com/rodneygauna",
     ":bird: Twitter": "https://twitter.com/rodneygauna"
 }
+USECASES = {
+    "UX Use Case - Blizzard Gear Store":
+        "https://docs.google.com/presentation/d/15o32SFDuWYTgCX5ahUk_ibQCqxTLapxIOE4D4LRWGmk/edit?usp=sharing",
+    "UX Use Case - Coco's Luxury Cat Toys":
+        "https://docs.google.com/document/d/1WKCbLjCHyGs83yE2qIdn-sraVplyhbK7Xrqfj2NOl6s/edit?usp=sharing"
+}
 ACCOMPLISHMENETS = {
+    ":small_red_triangle: Certified Product Owner":
+        "https://media-exp1.licdn.com/dms/image/C512DAQFV8fQ4aSpgbw/profile-treasury-document-cover-images_480/0/1583708695510?e=1662415200&v=beta&t=yEBVBpwsqOC5lJuh9eL4gy5vtnLrC6V6XZQ7jL7AHMc",
+    ":small_red_triangle: Certified Scrum Master":
+        "https://media-exp1.licdn.com/dms/image/C512DAQEIMcvV8WzIEQ/profile-treasury-document-cover-images_480/0/1583843187002?e=1662415200&v=beta&t=rfOq6VSDuY1czhL95eyooUZzntUxiVv5voXYt3Qm7Cs",
     ":small_red_triangle: Certification of User Experience Design":
-        "https://www.linkedin.com/in/rodneygauna/overlay/1543527566606/single-media-viewer?type=DOCUMENT&profileId=ACoAAATBSb0B_v3DmI29CUPWAA-AtssfapyM1eE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BsMU6JOOPT6ep%2BHC1EEzq2w%3D%3D",
+        "https://media-exp1.licdn.com/dms/image/C512DAQFEj40dc7q4rw/profile-treasury-document-cover-images_480/0/1583994385423?e=1662415200&v=beta&t=zag2GA-6mPkvNoA8KYkeLjsBgOLP8jxl5YCGnBYrgeY",
     ":small_red_triangle:Front End Web Development Certification":
-        "https://www.linkedin.com/in/rodneygauna/overlay/1508459634274/single-media-viewer?type=DOCUMENT&profileId=ACoAAATBSb0B_v3DmI29CUPWAA-AtssfapyM1eE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BFfPFt6M7RHCPCCfrLxCiZg%3D%3D",
-    ":small_red_triangle: Nationally Registered Emergency Medical Technician":
-        "https://media-exp1.licdn.com/dms/image/C512DAQH7VNHiiLX7tg/profile-treasury-document-cover-images_480/0/1583793387778?e=1662328800&v=beta&t=BHv8qJhKKNE_FxrmQ2DO-GGiRDYlKYuE0wXK2We6JRY"
+        "https://media-exp1.licdn.com/dms/image/C512DAQFxwPORwcGL3g/profile-treasury-document-cover-images_480/0/1583991883746?e=1662415200&v=beta&t=3dTO9Wf3zgESQ4nzB-wA0tJC8pd1wX2kcxOoGcB-e_o",
+    ":small_red_triangle: National Registry - Emergency Medical Technician":
+        "https://media-exp1.licdn.com/dms/image/C512DAQGLqGtYHUtzgg/profile-treasury-document-cover-images_480/0/1583498727443?e=1662415200&v=beta&t=Njt0tdudexyuspVVnNyI5YZ9UvFAKTUF8ytExi3oK8A"
 }
 PROJECTS = {
     ":small_orange_diamond: This Website":
@@ -52,7 +62,7 @@ PROJECTS = {
         "https://github.com/rodneygauna/palomar-CSIT150-IntroToSQL",
     ":small_orange_diamond:Learing Python":
         "https://github.com/rodneygauna/palomar-CSIT175-Python",
-    ":small_orange_diamond: Skeevy - Open Source Pet Tracking Web-App":
+    ":small_orange_diamond: Skeevy - Open Source Pet Medication Tracking Web-App":
         "https://github.com/rodneygauna/skeevy"
 }
 
@@ -127,7 +137,8 @@ st.subheader("Professional Skills")
 st.write("---")
 st.write(
     """
-- :ambulance: Electronic Health Records (EHRs), Healthcare Information Technology
+- :office: Product Management: Research customer needs, product vision and roadmap, strategy for development, creating sales and marketing objectives, leading and coaching a team of Product Managers
+- :ambulance: Medical: Electronic Health Records (EHRs), Healthcare Information Technology
 - 👩‍💻 Programming: HTML, CSS, JavaScript, Python, SQL, FHIR, HL7, ANSI X12
 - :file_cabinet: Databases: Postgres, MongoDB, MySQL
 """
@@ -166,6 +177,15 @@ st.write(
 """
 )
 
+
+# ------------------------------------------------------------------------------
+# Business and Use Cases
+# ------------------------------------------------------------------------------
+st.write("#")
+st.subheader("Business & Use Cases")
+st.write("---")
+for usecase, link in USECASES.items():
+    st.write(f"[{usecase}]({link})")
 
 # ------------------------------------------------------------------------------
 # Accomplishments
